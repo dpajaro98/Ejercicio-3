@@ -28,11 +28,6 @@ let Plnombre=estudiante.slice(0,1)
 let Ulapellido=estudiante.slice(27,28)
 let delSpace=estudiante.replace(/ /g,'')
 
-if (nombre==estudiante){
-    let vari=true
-    console.log(vari)
-
-}else{
-    console.log("uy pana")
-}
+const nombreEnEstudiante = estudiante.includes(nombre)
+console.log(nombreEnEstudiante)
 
